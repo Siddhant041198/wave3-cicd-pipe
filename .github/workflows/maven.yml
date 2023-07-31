@@ -1,12 +1,13 @@
 name: Java CI with Maven
 
+env:
+  project_id: db-cicdpipeline-wave-3
 on:
   push:
     branches:
       - main
       - feature/*
-      
-workflow_dispatch:
+  workflow_dispatch:
 permissions:
   contents: read
   pages: write
@@ -31,4 +32,4 @@ jobs:
           terraform plan 
       - name: Run terraform apply
         run: |
-          terraform apply -auto-approve  
+          terraform apply -auto-approve
