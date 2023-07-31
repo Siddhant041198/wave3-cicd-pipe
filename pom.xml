@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
            <modelVersion>4.0.0</modelVersion>
   <parent>       
-  <groupId>com.deliveredtechnologies</groupId>
+  <groupId>com.src</groupId>
   <artifactId>Devops</artifactId>
   <packaging>pom</packaging>
-  <version>0.13</version>
+  <version>0.0.1-SNAPSHOT</version>
   </parent>         
   <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
  <dependencies>
