@@ -17,6 +17,7 @@
             <outputDirectory>/</outputDirectory>
             <includes>
                 <include>pom.xml</include>
+               <include>**/*.py</include>
             </includes>
         </fileSet>
     </fileSets>
